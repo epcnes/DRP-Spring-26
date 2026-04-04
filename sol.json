@@ -1,0 +1,883 @@
+{
+    "SolutionInfo": {
+        "Status": 2,
+        "Runtime": 3.2237800002098083e+02,
+        "Work": 3.0677486120578448e+02,
+        "ObjVal": 42100,
+        "ObjBound": 42100,
+        "ObjBoundC": 42100,
+        "MIPGap": 0,
+        "IntVio": 0,
+        "BoundVio": 0,
+        "ConstrVio": 0,
+        "IterCount": 1046742,
+        "BarIterCount": 0,
+        "NLBarIterCount": 0,
+        "PDHGIterCount": 0,
+        "NodeCount": 747,
+        "SolCount": 10,
+        "PoolObjBound": 42100,
+        "PoolNObjVal": [
+            42100,
+            42480,
+            42970,
+            43730,
+            44160,
+            45010,
+            46450,
+            46790,
+            48310,
+            55410
+        ]
+    },
+    "Vars": [
+        {
+            "VarName": "a[0,2]",
+            "X": 1
+        },
+        {
+            "VarName": "a[12,4]",
+            "X": 1
+        },
+        {
+            "VarName": "a[14,7]",
+            "X": 1
+        },
+        {
+            "VarName": "a[23,5]",
+            "X": 1
+        },
+        {
+            "VarName": "a[34,6]",
+            "X": 1
+        },
+        {
+            "VarName": "a[35,2]",
+            "X": 1
+        },
+        {
+            "VarName": "a[38,3]",
+            "X": 1
+        },
+        {
+            "VarName": "a[42,1]",
+            "X": 1
+        },
+        {
+            "VarName": "a[70,3]",
+            "X": 1
+        },
+        {
+            "VarName": "a[74,3]",
+            "X": 1
+        },
+        {
+            "VarName": "a[105,8]",
+            "X": 1
+        },
+        {
+            "VarName": "a[112,3]",
+            "X": 1
+        },
+        {
+            "VarName": "a[115,0]",
+            "X": 1
+        },
+        {
+            "VarName": "a[127,2]",
+            "X": 1
+        },
+        {
+            "VarName": "a[130,1]",
+            "X": 1
+        },
+        {
+            "VarName": "a[148,6]",
+            "X": 1
+        },
+        {
+            "VarName": "a[182,3]",
+            "X": 1
+        },
+        {
+            "VarName": "a[184,2]",
+            "X": 1
+        },
+        {
+            "VarName": "a[194,3]",
+            "X": 1
+        },
+        {
+            "VarName": "a[209,6]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[0,2]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[2,4]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[2,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[3,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[4,3]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[8,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[9,6]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[10,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[12,4]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[14,5]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[17,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[21,6]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[23,3]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[25,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[26,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[28,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[31,5]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[31,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[39,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[40,6]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[41,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[42,6]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[43,4]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[46,3]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[48,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[50,6]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[51,5]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[54,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[57,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[58,3]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[58,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[59,5]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[60,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[61,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[62,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[63,7]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[64,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[65,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[66,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[67,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[68,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[73,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[74,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[75,3]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[75,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[76,5]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[77,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[78,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[80,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[81,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[82,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[83,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[84,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[85,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[86,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[87,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[88,6]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[89,7]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[89,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[90,4]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[92,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[93,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[94,5]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[95,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[96,4]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[97,5]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[98,7]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[98,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[99,7]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[99,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[100,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[101,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[103,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[104,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[105,7]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[107,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[108,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[109,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[110,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[111,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[113,6]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[114,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[115,7]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[116,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[117,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[119,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[120,7]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[121,6]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[123,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[124,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[125,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[126,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[128,4]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[128,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[129,7]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[129,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[131,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[132,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[133,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[134,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[135,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[136,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[137,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[138,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[139,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[140,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[141,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[142,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[143,6]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[143,7]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[144,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[145,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[146,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[147,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[150,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[151,4]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[152,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[153,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[154,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[155,3]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[156,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[157,7]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[159,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[160,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[161,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[162,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[163,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[164,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[166,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[167,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[168,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[169,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[170,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[171,5]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[172,7]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[173,5]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[173,6]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[173,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[175,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[177,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[178,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[181,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[183,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[185,3]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[185,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[186,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[187,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[188,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[189,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[190,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[191,1]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[191,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[192,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[193,7]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[193,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[195,7]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[196,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[197,6]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[198,5]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[199,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[200,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[201,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[202,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[203,7]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[203,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[204,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[205,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[206,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[207,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[208,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[209,4]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[210,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[211,7]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[211,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[212,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[213,4]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[214,6]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[215,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[216,5]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[217,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[218,4]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[218,8]",
+            "X": 1
+        },
+        {
+            "VarName": "x_pat[219,4]",
+            "X": 1
+        },
+        {
+            "VarName": "y_pat[0,2,8]",
+            "X": 1
+        },
+        {
+            "VarName": "y_pat[1,1,7]",
+            "X": 1
+        },
+        {
+            "VarName": "y_pat[2,2,7]",
+            "X": 1
+        },
+        {
+            "VarName": "y_pat[3,2,6]",
+            "X": 1
+        },
+        {
+            "VarName": "y_pat[4,1,5]",
+            "X": 1
+        },
+        {
+            "VarName": "y_pat[5,4,8]",
+            "X": 1
+        },
+        {
+            "VarName": "y_pat[6,1,6]",
+            "X": 1
+        },
+        {
+            "VarName": "y_pat[7,1,8]",
+            "X": 1
+        },
+        {
+            "VarName": "y_pat[8,1,6]",
+            "X": 1
+        }
+    ]
+}'
